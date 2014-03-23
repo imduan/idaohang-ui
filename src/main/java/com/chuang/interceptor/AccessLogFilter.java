@@ -25,7 +25,7 @@ import org.springframework.web.util.WebUtils;
 
 public class AccessLogFilter implements Filter {
 
-    private static final Logger accessLogger = LoggerFactory.getLogger("dx2_localman_access");
+    private static final Logger accessLogger = LoggerFactory.getLogger("chuang_access");
     private static final Logger STATISTICS = LoggerFactory.getLogger("STATISTICS");
 
     private static final String logFormat = "url:{}, status:{}, return:{}";

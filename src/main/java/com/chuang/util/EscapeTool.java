@@ -8,7 +8,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.web.util.HtmlUtils;
 import org.springframework.web.util.JavaScriptUtils;
 
-import com.alibaba.fastjson.JSON;
 
 /**
  * @author zhiqi.zhou
@@ -46,7 +45,8 @@ public class EscapeTool {
             return null;
         }
         try {
-            return JSON.toJSONString(data);
+            return "";
+//            return JSON.toJSONString(data);
         } catch (Exception e) {
             return null;
         }

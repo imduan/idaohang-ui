@@ -21,9 +21,9 @@
 		<listener-class>com.qunar.dx2.lm.ui.web.listener.QunarSeesionListener</listener-class>
 	</listener> -->
 	
-	<listener>
+<!-- 	<listener>
 		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
-	</listener>
+	</listener> -->
 
 	<servlet>
 		<servlet-name>dispatcher</servlet-name>
